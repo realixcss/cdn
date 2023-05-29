@@ -1,5 +1,5 @@
 /*
-* Realix Icon v3.3.0
+* Realix Icon v1.3.0
 *
 * Copyright Realix Icon
 * Released under the Apache License Version 2.0
@@ -8,12 +8,12 @@
 */
 @font-face {
   font-family: "realixicon";
-  src: url('realixicon.eot?t=1684338274817'); /* IE9*/
-  src: url('realixicon.eot?t=1684338274817#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url("realixicon.woff2?t=1684338274817") format("woff2"),
-  url("realixicon.woff?t=1684338274817") format("woff"),
-  url('realixicon.ttf?t=1684338274817') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('realixicon.svg?t=1684338274817#realixicon') format('svg'); /* iOS 4.1- */
+  src: url('https://cdn.jsdelivr.net/gh/realixcss/cdn@main/realixicon/font/realixicon.eot.eot?t=1684338274817'); /* IE9*/
+  src: url('https://cdn.jsdelivr.net/gh/realixcss/cdn@main/realixicon/font/realixicon.eot.eot?t=1684338274817#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("https://cdn.jsdelivr.net/gh/realixcss/cdn@main/realixicon/font/realixicon.woff2.woff2?t=1684338274817") format("woff2"),
+  url("https://cdn.jsdelivr.net/gh/realixcss/cdn@main/realixicon/font/realixicon.woff.woff?t=1684338274817") format("woff"),
+  url('https://cdn.jsdelivr.net/gh/realixcss/cdn@main/realixicon/font/realixicon.ttf.ttf?t=1684338274817') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('https://cdn.jsdelivr.net/gh/realixcss/cdn@main/realixicon/font/realixicon.svg.svg?t=1684338274817#realixicon') format('svg'); /* iOS 4.1- */
   font-display: swap;
 }
 
@@ -2522,4 +2522,3 @@
 .ri-water-percent-line:before { content: "\f3af"; }
 .ri-yuque-fill:before { content: "\f3b0"; }
 .ri-yuque-line:before { content: "\f3b1"; }
-
